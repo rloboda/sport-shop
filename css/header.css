@@ -1,0 +1,12 @@
+header {
+    background-color: black;
+}
+
+.nav__content__image-logo{
+    height: 40px;
+}
+
+.nav__content__icon{
+    width: 15px;
+    height: 15px;
+}
