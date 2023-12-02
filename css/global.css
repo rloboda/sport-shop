@@ -15,7 +15,7 @@
     --header-special-color: rgb(244, 1, 6);
     --header-second-special-color: rgb(252, 82, 85);
     --header-paragraf-color: rgba(34, 35, 35, 0.46);
-    --header-font: 'Bebas Neue', sans-serif;
+    --title-font: 'Bebas Neue', sans-serif;
 }
 
 img {
@@ -34,12 +34,15 @@ a,p{
     font-family: var(--text-font);
 }
 h1{
-    font-family: var(--header-font);
+    font-family: var(--title-font);
 }
 ul{
     list-style-type: none;
 }
-
+hr{
+    border-top: 5px solid red;
+    width: 70px;
+}
 .fixed{
     overflow: hidden;
 }

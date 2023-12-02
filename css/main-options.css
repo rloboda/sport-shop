@@ -1,0 +1,66 @@
+.options{
+    padding: 60px 0;
+}
+
+.options__conteiners{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+      
+}
+.options__conteiner{
+    margin: 15px;
+    background-size: cover;
+    height: 300px;
+    padding-top: 200px;
+    padding-left: 10px;
+}
+.options__conteiner__first{
+    background-image: url("../img/men-with_shoes.svg");
+    background-position-y: 72%;
+    background-position-x: 17%;
+}
+.options__conteiner__second{
+
+    background-image: url("../img/skateboard.png");
+    background-position-y: 42%;
+    background-position-x: 22%;
+}
+.options__conteiner__third{
+    background-image: url("../img/sport-bottle.png");
+    background-position-y: 52%;
+    background-position-x: 52%;
+}
+.options__conteiners__title{
+    font-size: 42px;
+    font-family: var(--title-font);
+    color: var(--header-background);
+}
+.options__conteiners__text{
+    padding: 5px 0;
+    font-size: 14px;
+    font-family: var(--text-font);
+    color: var(--header-background);
+    font-weight: 700;
+}
+
+@media(min-width:750px){
+    .options__conteiners{
+        flex-direction: row;
+    }
+    .options__conteiner{
+        margin: 0;
+        background-size: cover;
+        height: 370px;
+        width: 25%;
+        padding-top: 250px;
+        padding-left: 20px;
+    }
+    .options__conteiner__first{
+        width: 50%;
+    }
+    .options__conteiners__title{
+        font-size: 52px;
+    }
+
+}

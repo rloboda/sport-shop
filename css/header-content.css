@@ -10,7 +10,7 @@
 }
 .header__content__paragraf{
     color: var(--header-paragraf-color);
-    font-family: var(--header-font);
+    font-family: var(--title-font);
     font-size: 15px;
 }
 .header__content__title{
@@ -67,7 +67,7 @@
 }
 .arrow-button:hover {
     background-color: var(--header-second-special-color);
-    color: #fff;
+    color: var(--text-color)
 }
 
 @media(min-width:550px){
@@ -87,7 +87,7 @@
     }
     .header__content__paragraf{
         color: var(--header-paragraf-color);
-        font-family: var(--header-font);
+        font-family: var(--header-background);
         font-size: 20px;
     }
     .header__content__title{
