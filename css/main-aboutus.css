@@ -1,0 +1,53 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+}
+.about-us__photo{
+    background-image: url("../img/two_man.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.about-us__content{
+    background-color: var(--header-background);
+    padding: 90px 30px;
+}
+.about-us__text h2{
+    font-size: 38px;
+}
+.about-us__text hr{
+    margin: 15px 0;
+}
+.about-us__text p{
+    padding: 20px 0;
+    
+}
+.about-us__text__main{
+    font-size: 22px;
+}
+
+.about-us__socialmedia{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.about-us__socialmedia__icon{
+    width: 17px;
+    opacity: 0.5;
+}
+.about-us__socialmedia__icon:hover{
+    opacity: 1;
+}
+@media(min-width: 700px){
+    .about-us{
+        display: flex;
+        flex-direction: row;
+    }
+    .about-us__content{
+        
+    }
+    .about-us__photo{
+        height: 675px;
+    }
+
+}

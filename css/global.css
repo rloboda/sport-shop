@@ -28,7 +28,7 @@ img {
     margin: auto;
 }
 
-a,p{
+a,p,h2{
     color: var(--text-color);
     text-decoration: none;
     font-family: var(--text-font);
@@ -40,7 +40,7 @@ ul{
     list-style-type: none;
 }
 hr{
-    border-top: 5px solid red;
+    border: 2px solid red;
     width: 70px;
 }
 .fixed{
