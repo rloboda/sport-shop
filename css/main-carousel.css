@@ -1,0 +1,22 @@
+.carousel-container{
+    margin: 60px 24px;
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+   
+}
+
+.carousel-container__button-next{
+    margin-left: -15px;
+}
+.carousel-container__button-prev{
+    margin-left: 15px;
+}
+.carousel-container__slides{
+    display: flex;
+    gap: 30px;
+}
+.carousel-container__slide{
+    border: 1px black solid;
+    border-radius: 20px;
+}
+
