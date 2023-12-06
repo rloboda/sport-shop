@@ -16,6 +16,8 @@
     --header-second-special-color: rgb(252, 82, 85);
     --header-paragraf-color: rgba(34, 35, 35, 0.46);
     --title-font: 'Bebas Neue', sans-serif;
+    --main-paragraf-color: rgb(113, 116, 116);
+    --main-catalog-link-color: rgb(113, 116, 116, 0.5);
 }
 
 img {
