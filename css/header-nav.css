@@ -73,9 +73,6 @@
 .header.responsive .header__navicon:after {
     top: 0;
 }
-.header__nav-content__text{
-    
-}
 .header.responsive .header__nav-menu {
     position: absolute;
     width: 100%;
@@ -164,9 +161,6 @@
     }
     .header__nav-socialmedia{
         padding: 0;
-        
-    }
-    .header__socialmedia__icons{
         
     }
 }
