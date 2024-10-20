@@ -28,7 +28,3 @@ catalogShoes.addEventListener("click", () => {
     shoesContainer.classList.toggle("visible");
 })
 
-// navLinks.addEventListener("click", () => {
-//     body.classList.remove("fixed");
-//     header.classList.remove("responsive");
-// })
