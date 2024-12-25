@@ -1,9 +1,6 @@
 .catalog{
     padding: 90px 15px;
 }
-.catalog__content__text{
-    
-}
 .catalog__content__text p{
     color: var(--main-paragraf-color);
     font-size: 20px;
